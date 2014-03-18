@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Apollo</string>
+    <string name="title_activity_command_base_b">CommandBaseB</string>
+    <string name="title_activity_recruit_info">RecruitInfo</string>
+
+    <!-- Useless -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Colors -->
+    <color name="black">#000000</color>
+    <color name="blue">#63ACE5</color>
+
+    <!-- Menu Strings -->
+    <string name="menu_home">Home</string>
+    <string name="menu_buy_asset">Buy Assets</string>
+    <string name="menu_recruit">Recruit</string>
+    <string name="menu_asset_statistic">Asset Statistic</string>
+    <string name="menu_personnel_statistic">Personnel Statistic</string>
+    <string name="menu_command_post">Command Base</string>
+    <string name="menu_declare_war">Declare War</string>
+    <string name="menu_research">Research</string>
+
+    <!-- Text View -->
+    <string name="textView_country_name">Canada</string>
+    <string name="textView_total_personnel">Total # of Personnel</string>
+    <string name="textView_army">Army</string>
+    <string name="textView_air">Air Force</string>
+    <string name="textView_navy">Navy</string>
+    <string name="textView_zero">0</string>
+    <string name="title_activity_recruit">Recruit</string>
+    <string name="textView_first_name">First Name</string>
+    <string name="textView_last_name">Last Name</string>
+    <string name="textView_gender">Gender</string>
+    <string name="textView_division">Division</string>
+    <string name="textView_rank">Rank</string>
+    <string name="textView_job">Job</string>
+    <string name="textView_role">Role</string>
+    <string name="textView_select_country">Select Country</string>
+    <string name="textView_select_base">Select Base</string>
+    <string name="textView_country">Country</string>
+    <string name="textView_base">Base</string>
+
+    <!-- RadioButtons -->
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="radio_enlist">Enlist</string>
+    <string name="radio_officer">Officer</string>
+
+    <!-- Buttons -->
+    <string name="button_recruit">Recruit</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_viewBase">View Base</string>
+    <string name="button_discharge">Discharge</string>
+    <string name="button_save">Save</string>
+
+    <!-- Arrays -->
+    <string-array name="array_division">
+        <item>Select One</item>
+        <item>Army</item>
+        <item>Air Force</item>
+        <item>Navy</item>
+    </string-array>
+    <string-array name="array_empty">
+        <item>Empty</item>
+    </string-array>
+    <string-array name="array_army_enlist_jobs">
+        <item>Ammunition Technician</item>
+        <item>Armoured Soldier</item>
+        <item>Artillery Soldier</item>
+        <item>Combat Engineer</item>
+        <item>Cook</item>
+        <item>Infantry Soldier</item>
+        <item>Intelligence Operator</item>
+        <item>Medical Technician</item>
+        <item>Military Police</item>
+    </string-array>
+    <string-array name="array_army_officer_jobs">
+        <item>Armoured Officer</item>
+        <item>Artillery Officer</item>
+        <item>Bioscience Officer</item>
+        <item>Chaplain</item>
+        <item>Dental Officer</item>
+        <item>Engineer Officer</item>
+        <item>Infantry Officer</item>
+        <item>Intelligence Officer</item>
+        <item>Legal Officer</item>
+        <item>Logistics Officer</item>
+        <item>Medical Officer</item>
+        <item>Military Police Officer</item>
+        <item>Nursing Officer</item>
+        <item>Signals Officer</item>
+    </string-array>
+    <string-array name="array_airforce_enlist_jobs">
+        <item>Aerospace Control Operator</item>
+        <item>Avionics Technician</item>
+        <item>Cook</item>
+        <item>Intelligence Operator</item>
+        <item>Medical Technician</item>
+        <item>Military Police</item>
+    </string-array>
+    <string-array name="array_airforce_officer_jobs">
+        <item>Aerospace Control Officer</item>
+        <item>Air Combat Officer</item>
+        <item>Bioscience Officer</item>
+        <item>Chaplain</item>
+        <item>Intelligence Officer</item>
+        <item>Legal Officer</item>
+        <item>Logistics  Officer</item>
+        <item>Medical Officer</item>
+        <item>Military Police Officer</item>
+        <item>Nursing Officer</item>
+        <item>Pilot</item>
+    </string-array>
+    <string-array name="array_navy_enlist_jobs">
+        <item>Boatswain</item>
+        <item>Communicator</item>
+        <item>Cook</item>
+        <item>Hull Technician</item>
+        <item>Intelligence Operator</item>
+        <item>Marine Engineer</item>
+        <item>Medical Technician</item>
+        <item>Military Police</item>
+        <item>Naval Communicator</item>
+        <item>Sonar Operator</item>
+        <item>Steward</item>
+    </string-array>
+    <string-array name="array_navy_officer_jobs">
+        <item>Bioscience Officer</item>
+        <item>Chaplain</item>
+        <item>Intelligence Officer</item>
+        <item>Legal Officer</item>
+        <item>Logistics Officer</item>
+        <item>Maritime Officer</item>
+        <item>Medical Officer</item>
+        <item>Military Police Officer</item>
+        <item>Naval Combat Officer</item>
+        <item>Nursing Officer</item>
+    </string-array>
+    <string-array name="array_rank_enlist_army_and_airforce">
+        <item>Private Basic</item>
+        <item>Private</item>
+        <item>Corporal</item>
+        <item>Master Corporal</item>
+        <item>Sergeant</item>
+        <item>Warrant Officer</item>
+        <item>Master Warrant Officer</item>
+        <item>Chief Warrant Officer</item>
+    </string-array>
+    <string-array name="array_rank_enlist_navy">
+        <item>Ordinary Seaman</item>
+        <item>Able Seaman</item>
+        <item>Leading Seaman</item>
+        <item>Master Seaman</item>
+        <item>Petty Officer 2nd Class</item>
+        <item>Petty Officer 1st Class</item>
+        <item>Chief Petty Officer 2nd Class</item>
+        <item>Chief Petty Officer 1st Class</item>
+    </string-array>
+    <string-array name="array_rank_officer_army_and_airforce">
+        <item>Officer Cadet</item>
+        <item>Second Lieutenant</item>
+        <item>Lieutenant</item>
+        <item>Captain</item>
+        <item>Major</item>
+        <item>Lieutenant Colonel</item>
+        <item>Colonel</item>
+    </string-array>
+    <string-array name="array_rank_officer_navy">
+        <item>Naval Cadet</item>
+        <item>Acting Sub-Lieutenant</item>
+        <item>Sub-Lieutenant</item>
+        <item>Lieutenant</item>
+        <item>Lieutenant Commander</item>
+        <item>Commander</item>
+        <item>Captain</item>
+    </string-array>
+    <string-array name="array_rank_flag_army_and_airforce">
+        <item>Brigadier General</item>
+        <item>Major General</item>
+        <item>Lieutenant General</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="array_rank_flag_navy">
+        <item>Commodore</item>
+        <item>Rear Admiral</item>
+        <item>Vice Admiral</item>
+        <item>Admiral</item>
+    </string-array>
+    <string-array name="array_country">
+        <item>Select One</item>
+        <item>Canada</item>
+        <item>USA</item>
+        <item>England</item>
+        <item>China</item>
+    </string-array>
+    <string-array name="array_canada_base">
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Calgary</item>
+        <item>Halifax</item>
+    </string-array>
+    <string-array name="array_usa_base">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Miami</item>
+    </string-array>
+    <string-array name="array_england_base">
+        <item>Liverpool</item>
+        <item>Machester</item>
+        <item>New Castle</item>
+        <item>Everton</item>
+    </string-array>
+    <string-array name="array_china_base">
+        <item>Shanghai</item>
+        <item>Beijing</item>
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+    </string-array>
+
+    <string name="title_activity_command_base">CommandBaseA</string>
+
+</resources>

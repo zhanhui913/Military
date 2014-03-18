@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingBottom="@dimen/five"
+            android:paddingLeft="@dimen/five"
+            android:paddingRight="@dimen/five"
+            android:paddingTop="@dimen/five"
+            android:layout_weight="1"
+            android:src="@drawable/personnel" >
+        </ImageView>
+
+        <TextView android:id="@+id/country_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="#0147FA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        
+        <ImageButton 
+            android:id="@+id/imageButton_delete"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_delete"
+            android:visibility="invisible"/>
+        
+       	<ImageButton 
+            android:id="@+id/imageButton_done"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_done"
+            android:visibility="invisible"/>
+        
+    </LinearLayout>
+    
+    <!-- The View is for the separator -->
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#DADADA"/>
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/selector"
+    />
+</LinearLayout>

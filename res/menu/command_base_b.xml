@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ 
+    <item android:id="@+id/menu_save"
+          android:title="Save" />
+ 
+    <item android:id="@+id/menu_delete"
+          android:title="Delete" />  
+ 
+        <item android:id="@+id/menu_home"
+        android:title="@string/menu_home"/>
+    
+     	<item android:id="@+id/menu_recruit"
+  		android:title="@string/menu_recruit" />
+ 
+ 	<item android:id="@+id/menu_buy_asset"
+      	android:title="@string/menu_buy_asset" />  
+      	
+   	<item android:id="@+id/menu_research"
+      	android:title="@string/menu_research" />   	
+
+ 	<item android:id="@+id/menu_personnel_statistic"
+  		android:title="@string/menu_personnel_statistic" />
+   	
+   	<item android:id="@+id/menu_asset_statistic"
+      	android:title="@string/menu_asset_statistic" /> 
+ 
+    <item android:id="@+id/menu_command_post"
+      	android:title="@string/menu_command_post" /> 
+      	
+ 	<item android:id="@+id/menu_declare_war"
+  		android:title="@string/menu_declare_war" />
+ 
+    
+
+</menu>
